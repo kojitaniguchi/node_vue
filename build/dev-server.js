@@ -13,8 +13,7 @@ const app = express()
 // webpack関連--------------------------------------------------------------------------------------
 const webpack = require('webpack')
 const webpackConfig = (process.env.NODE_ENV === 'testing' || process.env.NODE_ENV === 'production')
-  ? require('./webpack.prod.conf')
-  : require('./webpack.dev.conf')
+  ? require('./webpack.prod.conf') : require('./webpack.dev.conf')
 
 const compiler = webpack(webpackConfig)
 // serves the files emitted from webpack over a connect server
