@@ -16,7 +16,9 @@ import Card from './Card'
 import { mapGetters } from 'vuex'
 export default {
   computed: {
-    mapGetters(['gifs'])
+    mapGetters([
+      'gifs'
+    ])
   },
   components: {
     Search,
