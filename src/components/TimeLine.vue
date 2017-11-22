@@ -16,7 +16,7 @@ import Card from './Card'
 import { mapGetters } from 'vuex'
 export default {
   computed: {
-    mapGetters([
+    ...mapGetters([
       'gifs'
     ])
   },

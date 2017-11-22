@@ -10,7 +10,7 @@
   import { CHANGE_KEYWORD, SEARCH } from '../vuex/mutation-types'
   export default {
     methods: {
-      mapActions([
+      ...mapActions([
         CHANGE_KEYWORD, SEARCH
       ])
     }
