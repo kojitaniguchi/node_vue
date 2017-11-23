@@ -9,6 +9,10 @@
   </div>
 </template>
 
+<script>
+  export default {}
+</script>
+
 <style scoped>
 .mdl-layout__header-row {
   padding: 0 16px;

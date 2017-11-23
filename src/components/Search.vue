@@ -6,14 +6,14 @@
 </template>
 
 <script>
-  import { mapActions } from 'vuex'
-  import { CHANGE_KEYWORD, SEARCH } from '../vuex/mutation-types'
+  // import { mapActions } from 'vuex'
+  // import { CHANGE_KEYWORD, SEARCH } from '../vuex/mutation-types'
   export default {
-    methods: {
-      ...mapActions([
-        CHANGE_KEYWORD, SEARCH
-      ])
-    }
+    // methods: {
+    //   ...mapActions([
+    //     CHANGE_KEYWORD, SEARCH
+    //   ])
+    // }
   }
 </script>
 
