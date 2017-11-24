@@ -6,6 +6,7 @@
         <span class="mdl-layout-title">GIPHY-VUE</span>
       </div>
     </header>
+    <router-view></router-view>
   </div>
 </template>
 

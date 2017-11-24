@@ -3,8 +3,8 @@
     <div class="page-content">
       <search></search>
       <card
-        v-for="gif in gifs"
-        :gif="gif">
+        <!-- v-for="gif in gifs"
+        :gif="gif" --> >
       </card>
     </div>
   </main>

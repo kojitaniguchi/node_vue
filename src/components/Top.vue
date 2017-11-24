@@ -1,13 +1,17 @@
 <template>
-  <view-header></view-header>
-  <time-line></time-line>
+  <div class="top">
+    <<router-view></router-view>
+  </div>
 </template>
 
 <script>
-import VueHeader from './Header'
+import Header from './Header'
 import TimeLine from './TimeLine'
 
 export default {
-  name: 'top'
+  components: {
+    Header,
+    TimeLine
+  }
 }
 </script>
