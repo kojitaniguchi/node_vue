@@ -15,7 +15,7 @@ new Vue({
   el: 'body',
   // router
   router,
-  // template
+  //
   template: '<App/>',
   components: { App }
 })
