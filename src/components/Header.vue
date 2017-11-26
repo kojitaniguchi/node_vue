@@ -1,12 +1,8 @@
 <template>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" id="app">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <i class="material-icons">dehaze</i>
-        <span class="mdl-layout-title">GIPHY-VUE</span>
-      </div>
-    </header>
-    <router-view></router-view>
+  <div>
+    <!-- <div class="mdl-layout__header-row">
+      <p>dehaze</p>
+    </div> -->
   </div>
 </template>
 
